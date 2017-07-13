@@ -20,10 +20,10 @@ let appPath = {
 }
 
 // Set to true for serving php for exemple
-let isProxy = false
+let isProxy = true
 
 // If isProxy is enable specify the path URL where the project files are
-let proxyURL = 'http://localhost/~user/wordpress-site/'
+let proxyURL = 'http://localhost/~skullmasher/slider-unknow-image/app'
 
 /*
  * You should not have to edit stuff beyond this warning
@@ -44,7 +44,7 @@ let greetingMessage = function () {
 greetingMessage()
 
 // Reload all browser on HTML change
-bs.watch(appPath.appFolderPath + '*.html').on('change', function () {
+bs.watch(appPath.appFolderPath + '*.php').on('change', function () {
   bs.reload()
 })
 

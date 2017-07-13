@@ -5,4 +5,9 @@ body {
   font-family: 'roboto', sans-serif;
 }
 
+.slider {
+  width: 200px;
+  height: 100px;
+}
+
 /*# sourceMappingURL=style.map.css */
